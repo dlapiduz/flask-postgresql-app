@@ -1,4 +1,4 @@
-from app import db
+from application import db
 
 class Guest(db.Model):
     """Simple database model to track event attendees."""
